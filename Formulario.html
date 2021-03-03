@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Formulario pt1</title>
+
+	<link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body> 
+	<form class="formulario">
+		<h1 class="formulario__titulo">Cadastro</h1>
+
+		<input type="text" for= 'nNome' id="formulario__campos" class="formulario__campos" onchange="manterN()" name="cNomeN" autofocus>
+
+		<label class="formulario__nomes" id="nNome"> Nome </label>
+
+		<input type="text" for= 'sNome' id="formulario__campos" class="formulario__campos" onchange="manterS()" name="cNomeS">
+
+		<label class="formulario__nomes" id="sNome"> Sobrenome </label>
+
+		<input type="email" for = 'eNome' id="formulario__campos" class="formulario__campos" onchange="manterE()" name="cNomeE">
+
+		<label class="formulario__nomes" id="eNome"> Email </label>
+
+		<input type="text" for= 'tNome' id="formulario__campos" class="formulario__campos" onchange="manterT()" name="cNomeT">
+
+		<label class="formulario__nomes" id="tNome"> Telefone</label>
+
+
+		<input type="submit" class="formulario__submit">
+	</form>
+	<script src="./js/funcoes.js"></script>
+
+</body>
+
+</html>
