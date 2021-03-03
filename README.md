@@ -1,5 +1,5 @@
 # FormCadastro
-Formulário que cadastra os dados.
+Formulário que apresenta dados preenchidos no console.
 
 TELA:
 ![Capturar](https://user-images.githubusercontent.com/48732887/109819483-df260b00-7c12-11eb-9adb-e17f64706f1e.PNG)
