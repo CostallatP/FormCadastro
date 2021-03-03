@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+	background-color: rgb(58, 211, 185);
+	z-index: -3;
+}
+/* caixa do formulario */
+.formulario {
+	width: 500px;
+	max-width: 100%;
+	margin: auto;
+	margin-top: 30px;
+	padding: 20px;
+	box-shadow: 0 0 29px 1px rgba(0, 0, 0, 0.3);
+	position: relative;
+	height: 443px;
+	background-color: #ffffff;
+	z-index: 1;
+}
+/* titulo */
+.formulario__titulo {
+	text-align: center;
+	margin-top: 0;
+	color: rgba(0, 0, 0, 0.7);
+}
+/* campos do formulario */
+.formulario__campos, .formulario__nomes, .formulario__submit {
+	display: block;
+	font-size: 1.3em;
+	height: 45px;
+	margin-bottom: 36px;
+}
+/* alteradores do botão de enviar */
+.formulario__submit {
+	color: white;
+	background-color: black;
+	border: none;
+	width: 100%;
+	margin-top: -20px;
+	
+}
+/* interação do botão enviar */
+.formulario__submit:hover {
+	background-color: rgb(240, 12, 80);
+}
+/* alterador de campos  */
+.formulario__campos {
+	padding: 20px;
+	background: transparent;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	width: 100%;
+	position: relative;	
+	z-index: 1;
+}
+/* animação de movimento */
+.formulario__campos:focus + .formulario__nomes
+{
+	padding: 0%;
+	margin-bottom: 40px;
+	margin-top: -110px;
+	transition-duration: 200ms;
+}
+/* posição dos orientadores de campos fixos */
+
+.formulario__nomes {
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-top: -80px;
+	position: absolute;
+	z-index: -1;
+	color: gray;
+}
+/* fixador após preencher */
+
+.mantem{
+	padding: 0%;
+	margin-bottom: 40px;
+	margin-top: -110px;
+	transition-duration: 200ms;
+}
